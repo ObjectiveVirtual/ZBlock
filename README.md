@@ -11,7 +11,7 @@ ZBlock modifies your system hosts file by adding a lot of advertisement domains 
 ## Installation
 
 1. Download the latest release from the [releases page](https://github.com/ObjectiveVirtual/ZBlock/releases).
-2. Unzip the downloaded file.
+2. Unzip the downloaded file and follow the instructions on the download page to prove it's authenticity.
 3. Run the `setup.exe` file and follow the installation instructions.
 
 ## Usage
