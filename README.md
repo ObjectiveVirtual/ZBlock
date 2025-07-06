@@ -43,5 +43,6 @@ ZBlock modifies your system hosts file by adding a lot of advertisement domains 
 - **Issue:** I lost access to some legitimate websites, e.g : Samsung.com
   - **Solution:** Open your hosts file, find the legitimate website (Samsung.com in our case), remove the line with the domain on it, then save and exit the hosts file editor.
 
-#License
+# License
+
 This project is licensed under the MIT Licesne
