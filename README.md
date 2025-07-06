@@ -38,3 +38,7 @@ ZBlock modifies your system hosts file by adding a lot of advertisement domains 
 
 - **Issue:** ZBlock is not blocking ads.
   - **Solution:** Ensure ZBlock has the necessary permissions to modify the hosts file. Run ZBlock as an administrator.
+- **Issue:** ZBlock is still blocking ads after shut down.
+  - **Solution:** You will have to clear your hosts file from blocked advertising domains.
+- **Issue:** I lost access to some legitimate websites, e.g : Samsung.com
+  - **Solution:** Open your hosts file, find the legitimate website (Samsung.com in our case), remove the line with the domain on it, then save and exit the hosts file editor.
