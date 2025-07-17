@@ -10,12 +10,18 @@ windows_hostsfile = r"C:\Windows\System32\drivers\etc\hosts"
 default_hostsfile = windows_hostsfile
 
 # Redirect IP for blocked websites
-redirect_ip = "127.0.0.1"
+redirect_ip = "0.0.0.0"
 original_hosts_content = None
 running = True
 stop_event = threading.Event()
 blacklist_file = r"C:\Program Files\ObjectiveVirtual\Zblock\blacklist.json"
 backup_hosts_file = "hosts.bak"
+
+def update_info():
+    messagebox.showinfo("Version 1.1 - Alpha", "Optimized protection against ADs, gambling and other adult websites, and especially against trackers and unsafe websites.")
+
+def about():
+    messagebox.showwarning("About ZBlock", "ZBlock is a program that runs and blocks every AD on your whole Windows OS. DISCLAIMER: This is program is still in Alpha state which means it may not operate perfectly and can also block legitimate websites that diesn't have the purpose of showing any AD.")
 
 def load_blacklist():
     #Loads the blacklist from the JSON file.
@@ -23,7 +29,7 @@ def load_blacklist():
         with open(blacklist_file, "r") as f:
             return json.load(f), None
     except FileNotFoundError:
-        return [], f"Oh no! {blacklist_file} not found. ADs won't be blocked."
+        return [], f"Oh no! {blacklist_file} can't be found. ADs won't be blocked."
     except json.JSONDecodeError as e:
         return [], f"Oh no! {blacklist_file} is corrupted, this code can help you troubleshoot that: {e}"
 
@@ -102,31 +108,47 @@ def run_ad_blocker():
 if __name__ == "__main__":
     #Window configuration
     root = tk.Tk()
-    root.title("ZBlock V.1.0 - Alpha")
-    root.geometry("470x150")
+    root.title("ZBlock V.1.1 - Alpha")
+    root.geometry("470x165")
     root.configure(bg='#1B1C1D')
     root.resizable(False, False)
     root.iconbitmap(r"C:\Program Files\ObjectiveVirtual\ZBlock\icons\Zblock-icon.ico")
     
+    frame2 = tk.Frame(root)
+    frame2.pack(fill="x", side='top')
+    frame2.configure(bg='white')
+
     frame = tk.Frame(root)
     frame.pack(pady=10, side='top')
     frame.configure(bg = '#1B1C1D')
 
     backup_button = tk.Button(frame, text="Backup Hosts", command=backup_hosts_gui, relief="flat", highlightthickness=0, borderwidth=0)
     backup_button.pack(pady=10, side='left')
-    backup_button.configure(bg='Orange')
+    backup_button.configure(bg='Orange', fg='white')
 
-    block_button = tk.Button(root, text="Block Ads", command=block_ads_gui, relief="flat", highlightthickness=0, borderwidth=0)
-    block_button.pack(pady=10)
-    block_button.configure(bg='#A52A2A')
+    block_button = tk.Button(frame2, text="Block Ads", command=block_ads_gui, relief="flat", highlightthickness=0, borderwidth=0)
+    block_button.pack(padx=10, pady=5, side='left')
+    block_button.configure(bg='#A52A2A', fg='white')
 
     restore_button = tk.Button(frame, text="Restore Hosts and Stop", command=restore_hosts_gui, relief="flat", highlightthickness=0, borderwidth=0)
     restore_button.pack(pady=10, side='left', padx=10)
-    restore_button.configure(bg='#418ABB')
+    restore_button.configure(bg='#418ABB', fg='white')
+
+    update = tk.Button(root, text="What's new ?", command=update_info, relief="flat", highlightthickness=0, borderwidth=0)
+    update.pack(pady=10, side='top')
+    update.configure(bg="gray", fg='white')
 
     copyright = tk.Label(root, text="©2025 Anir El Haddaj (Objective:Virtual), this software is licensed under the MIT license.")
-    copyright.configure(bg='#1B1C1D', fg="#A3A3A3")
+    copyright.configure(bg='#1B1C1D', fg="#A9B0B1")
     copyright.pack(pady=10, side="bottom")
+
+    objectivevirtual = tk.Label(frame2, text="Objective:Virtual", bg='white', font=("Calibri", 14, "bold"))
+    objectivevirtual.pack(side="right")
+
+    ZBlock = tk.Button(frame2, text="About ZBlock", command=about, relief="flat", highlightthickness=0, borderwidth=0)
+    ZBlock.pack(padx=10, pady=5, side='left')
+    ZBlock.configure(bg="gray", fg='white')
+
 
     threading.Thread(target=run_ad_blocker, daemon=True).start()
 
