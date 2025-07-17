@@ -22,7 +22,7 @@ ZBlock modifies your system hosts file by adding a lot of advertisement domains 
 2. Click on the "Block ADs" button.
 3. ZBlock will modify your hosts file to block advertisement domains.
 
-   ![image](https://github.com/user-attachments/assets/608c2843-b9f5-4e4e-ba45-619b79e60fec)
+<img width="602" height="327" alt="Capture" src="https://github.com/user-attachments/assets/459dfb63-880a-4e9c-bc6d-4d31c0ef2042" />
 
 ### Backing Up Hosts File
 
