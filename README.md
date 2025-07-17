@@ -6,12 +6,12 @@ ZBlock is a simple desktop app for Windows that helps you block most annoying AD
 
 ## Introduction
 
-ZBlock modifies your system hosts file by adding a lot of advertisement domains that the system must block once you click on block ADs. Unfortunately, this will also block legitimate websites that don't have the purpose to show any AD.
+ZBlock modifies your system hosts file by adding a lot of advertisement domains that the system must block by redirecting them to a computer that doesn't exist once you click on block ADs on the UI. Unfortunately, this will also block legitimate websites that don't have the purpose to show any AD.
 
 ## Installation
 
 1. Download the latest release from the [releases page](https://github.com/ObjectiveVirtual/ZBlock/releases).
-2. Unzip the downloaded file and follow the instructions on the download page to prove it's authenticity.
+2. Unzip the downloaded file and follow the instructions on the `NOTICE.txt` file to prove it's authenticity.
 3. Run the `setup.exe` file and follow the installation instructions.
 
 ## Usage
