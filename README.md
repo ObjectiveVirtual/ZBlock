@@ -29,6 +29,7 @@ ZBlock modifies your system hosts file by adding a lot of advertisement domains 
 1. Shut down ZBlock if it is running.
 2. Open File Explorer and navigate to `C:\Windows\System32\drivers\etc`.
 3. Copy the `hosts` file and paste it in a safe location.
+
 **NOTE: Alternatively you can do that using ZBlock, but this method is stil in-developpement and might not be reliable for newbies.**
 
    ![image](https://github.com/user-attachments/assets/443447b7-c2d0-42b7-a536-483e6634cf64)
