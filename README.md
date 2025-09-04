@@ -34,9 +34,13 @@ ZBlock modifies your system hosts file by adding a lot of advertisement domains 
 
    ![image](https://github.com/user-attachments/assets/443447b7-c2d0-42b7-a536-483e6634cf64)
 
+### Setting up custom blacklists
+
+You can use ZBlock to manage websites users of the device can access or not, for example you can block the access of youtube.com on this computer using ZBlock. To do so you will need to set up a custom blacklist. Please read the Wiki for more instructions.
+
 ## Troubleshooting
 
-### Common Issue
+### Common Issues:
 
 - **Issue:** ZBlock is not blocking ads.
   - **Solution:** Ensure ZBlock has the necessary permissions to modify the hosts file. Run ZBlock as an administrator.
@@ -44,6 +48,8 @@ ZBlock modifies your system hosts file by adding a lot of advertisement domains 
   - **Solution:** You will have to clear your hosts file from blocked advertising domains.
 - **Issue:** I lost access to some legitimate websites, e.g : Samsung.com
   - **Solution:** Open your hosts file, find the legitimate website (Samsung.com in our case), remove the line with the domain on it, then save and exit the hosts file editor.
+- **Issue:** I can't clear my hosts file.
+  - **Solution:** Boot your PC into Safe Mode, then clear it, normally on Safe Mode you're alr in Admin mode so nothing will stop you.
 
 # License
 
