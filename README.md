@@ -8,35 +8,35 @@ ZBlock is a simple desktop app for Windows that helps you block most annoying AD
 
 ZBlock modifies your system hosts file by adding a lot of advertisement domains that the system must block by redirecting them to a computer that doesn't exist once you click on block ADs on the UI. Unfortunately, this will also block legitimate websites that don't have the purpose to show any AD.
 
+### Disclaimer
+>  I am not responsible of damage caused to your computer. If do you want a safe, efficace & reliable experience, pls do not choose versions flagged as unstable. They're too heavy, they contain large amount of informations that can break the internet access feature on your PC, yet unreliable. These kind of versions are meant for educationnal/experimental purposes, not for actual use. Use them at your own risk.
+
+#### Types of versions + comparaison
+ZBlock comes with different types of versions, Stable & Unstable. Let's see what does each one of them offer and what are the trade offs !
+
+| Version type | Benefits                         | Trade offs                                            |
+|--------------|----------------------------------|-------------------------------------------------------|
+| **Stable**   | - Performant                     | - Limited                                             |
+|              | - Lightweight                    | - No early access to brand new features               |
+|              | - Efficace                       | - Non-suitable for educationnal/experimental purposes |
+|              | - Easy to manage / troubleshoot  |                                                       |
+| **Unstable** | - Early access to new features   | - Heavier, bad for low end devices                    |
+|              | - Early access to a new polished | - Likely to break device built-in features.           |
+|              | UI.                              | - Can cause damage to the computer                    |
+|              | - Comes with databases containing| - Quickly becomes unresponsive.                       |
+|              | more domain names. Useful for ppl|                                                       |
+|              | interested in this.              |                                                       |
+|              | - For experimental/educationnal  |                                                       |
+|              | purposes.                        |                                                       |
+
 ## Installation
 
 1. Download the latest release from the [releases page](https://github.com/ObjectiveVirtual/ZBlock/releases).
 2. Unzip the downloaded file and follow the instructions on the `NOTICE.txt` file to prove it's authenticity.
-3. Run the `setup.exe` file and follow the installation instructions.
+3. Run the `setup.exe` file and follow the installation instructions on your screen.
 
 ## Usage
-
-### Blocking Ads
-
-1. Open ZBlock.
-2. Click on the "Block ADs" button.
-3. ZBlock will modify your hosts file to block advertisement domains.
-
-<img width="602" height="327" alt="Capture" src="https://github.com/user-attachments/assets/459dfb63-880a-4e9c-bc6d-4d31c0ef2042" />
-
-### Backing Up Hosts File
-
-1. Shut down ZBlock if it is running.
-2. Open File Explorer and navigate to `C:\Windows\System32\drivers\etc`.
-3. Copy the `hosts` file and paste it in a safe location.
-
-**NOTE: Alternatively you can do that using ZBlock, but this method is stil in-developpement and might not be reliable for newbies.**
-
-   ![image](https://github.com/user-attachments/assets/443447b7-c2d0-42b7-a536-483e6634cf64)
-
-### Setting up custom blacklists
-
-You can use ZBlock to manage websites users of the device can access or not, for example you can block the access of youtube.com on this computer using ZBlock. To do so you will need to set up a custom blacklist. Please read the Wiki for more instructions.
+Please visit our wiki for more information about how this software works. [See this](https://github.com/ObjectiveVirtual/ZBlock/wiki/)
 
 ## Troubleshooting
 
