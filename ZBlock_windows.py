@@ -4,8 +4,9 @@ import tkinter as tk
 from tkinter import messagebox
 import shutil
 
+messagebox.showwarning("DISCLAIMER", "Using this software without any knowledge about how it works can make your computer unable to access the internet or may slow down your browser. We recommend you to read our wiki on GitHub for more information or consult the manual provided with the software if you have it. Remember that I AM NOT RESPONSIBLE FOR DAMAGE CAUSED TO YOUR COMPUTER.")
+
 # Define hosts file paths for different operating systems
-linux_hostsfile = "/etc/hosts"
 windows_hostsfile = r"C:\Windows\System32\drivers\etc\hosts"
 default_hostsfile = windows_hostsfile
 
@@ -18,10 +19,10 @@ blacklist_file = r"C:\Program Files\ObjectiveVirtual\Zblock\blacklist.json"
 backup_hosts_file = "hosts.bak"
 
 def update_info():
-    messagebox.showinfo("Version 1.1 - Alpha", "Optimized protection against ADs, gambling and other adult websites, and especially against trackers and unsafe websites.")
+    messagebox.showinfo("Version 1.1 - Alpha (STABLE)", "Optimized protection against ADs and especially against trackers. Stabilized the version to prevent breaking internet access feature.")
 
 def about():
-    messagebox.showwarning("About ZBlock", "ZBlock is a program that runs and blocks every AD on your whole Windows OS. DISCLAIMER: This is program is still in Alpha state which means it may not operate perfectly and can also block legitimate websites that diesn't have the purpose of showing any AD.")
+    messagebox.showwarning("About ZBlock", "ZBlock is a program that runs and blocks every AD on your whole Windows OS. DISCLAIMER: This is program is still in Alpha state which means it may not operate perfectly and can also block legitimate websites that diesn't have the purpose of showing any AD. I AM NOT RESPONSIBLE OF ANY DAMAGE CAUSED BY THE SOFTWARE TO YOUR COMPUTER!")
 
 def load_blacklist():
     #Loads the blacklist from the JSON file.
