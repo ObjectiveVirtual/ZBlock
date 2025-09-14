@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="scroll-smooth">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,13 +42,13 @@
     <!-- Header & Navigation -->
     <header class="fixed top-0 left-0 w-full z-50 bg-gray-900 bg-opacity-70 backdrop-blur-md">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-white">ZBlock</a>
+            <a href="https://objectivevirtual.github.io/ZBlock/" class="text-2xl font-bold text-white">ZBlock</a>
             <nav class="hidden md:flex space-x-8">
                 <a href="#features" class="text-white hover:text-indigo-400 transition-colors duration-300">Features</a>
                 <a href="#about" class="text-white hover:text-indigo-400 transition-colors duration-300">About</a>
                 <a href="#contribute" class="text-white hover:text-indigo-400 transition-colors duration-300">Contribute</a>
             </nav>
-            <a href="#" class="hidden md:block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105">Get Started</a>
+            <a href="https://github.com/ObjectiveVirtual/ZBlock/releases" class="hidden md:block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105">Download now !</a>
             <!-- Mobile Menu Button -->
             <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
@@ -60,7 +60,7 @@
                 <a href="#features" class="block text-white hover:text-indigo-400 transition-colors duration-300">Features</a>
                 <a href="#about" class="block text-white hover:text-indigo-400 transition-colors duration-300">About</a>
                 <a href="#contribute" class="block text-white hover:text-indigo-400 transition-colors duration-300">Contact</a>
-                <a href="#" class="block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-full transition-transform duration-300 transform hover:scale-105">Get Started</a>
+                <a href="https://www.github.com/ObjectiveVirtual/ZBlock/releases" class="block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-full transition-transform duration-300 transform hover:scale-105">Download now !</a>
             </nav>
         </div>
     </header>
@@ -126,7 +126,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img width="602" height="327" alt="App Screenshot" src="https://github.com/user-attachments/assets/1bc08612-1945-4ebc-a34f-b355260b4033" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
+                    <img width="602" height="327" alt="App Screenshot" src="https://github.com/ObjectiveVirtual/ZBlock/blob/main/docs/Screenshot%202025-09-06%20203738.png" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
                 </div>
                 <div>
                 <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">About Our App</h2>
