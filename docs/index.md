@@ -46,7 +46,7 @@
             <nav class="hidden md:flex space-x-8">
                 <a href="#features" class="text-white hover:text-indigo-400 transition-colors duration-300">Features</a>
                 <a href="#about" class="text-white hover:text-indigo-400 transition-colors duration-300">About</a>
-                <a href="#contribute" class="text-white hover:text-indigo-400 transition-colors duration-300">Contact</a>
+                <a href="#contribute" class="text-white hover:text-indigo-400 transition-colors duration-300">Contribute</a>
             </nav>
             <a href="#" class="hidden md:block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105">Get Started</a>
             <!-- Mobile Menu Button -->
@@ -127,7 +127,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img src="<img width="602" height="327" alt="467574981-e55925ae-0ebe-4970-857b-64e156fcdf53" src="https://github.com/user-attachments/assets/91ccd5b6-d999-4c20-ae59-0e0ffce1ccb2" />" alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
+                    <img src="<img width="602" height="327" alt="467574981-e55925ae-0ebe-4970-857b-64e156fcdf53" src="https://github.com/user-attachments/assets/91ccd5b6-d999-4c20-ae59-0e0ffce1ccb2" /> alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
                 </div>
                 <div>
                     <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">About Our App</h2>
