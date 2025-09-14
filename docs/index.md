@@ -128,7 +128,7 @@
                 <div>
                     <!-- TODO: Replace this placeholder image URL with the actual image path after uploading the file to your repository. -->
                     <!-- Example: src="Screenshot 2025-09-06 203723.png" -->
-                    <img src="https://placehold.co/600x400/1f2937/d1d5db?text=App+Screenshot" alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
+                    <img src="https://www.github.com/ObjectiveVirtual/ZBlock/blob/main/docs/Screenshot 2025-09-06 203738.png" alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
                 </div>
                 <div>
                 <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">About Our App</h2>
