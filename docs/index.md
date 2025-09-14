@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>ZBlock</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Font: Inter -->
@@ -126,14 +126,16 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img src="https://github.com/ObjectiveVirtual/ZBlock/blob/main/docs/Screenshot%202025-09-06%20203738.png" alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
+                    <!-- TODO: Replace this placeholder image URL with the actual image path after uploading the file to your repository. -->
+                    <!-- Example: src="Screenshot 2025-09-06 203723.png" -->
+                    <img src="https://placehold.co/600x400/1f2937/d1d5db?text=App+Screenshot" alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
                 </div>
                 <div>
                 <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">About Our App</h2>
                     <p class="text-gray-400 text-lg mb-6">
                         We believe that you deserve an AD-free experience on your Windows device, this is why ZBlock helps you block of this clutter in one click. Designed to be easy to use and tweak, ZBlock remains a free hosts manager software to help you manage websites and ADs.
                     </p>
-                    <p class="text-gray-400 text-lg">
+                    <p class="text-400 text-lg">
                         We are committed to continuous improvement in our free time, our software is open source & licensed using the MIT license. Contributions, feedbacks and reviews are warmly welcomed on our github repository !
                     </p>
                 </div>
