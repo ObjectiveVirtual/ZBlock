@@ -127,7 +127,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img src="https://private-user-images.githubusercontent.com/166249695/467574981-e55925ae-0ebe-4970-857b-64e156fcdf53.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc4NjIzNDYsIm5iZiI6MTc1Nzg2MjA0NiwicGF0aCI6Ii8xNjYyNDk2OTUvNDY3NTc0OTgxLWU1NTkyNWFlLTBlYmUtNDk3MC04NTdiLTY0ZTE1NmZjZGY1My5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkxNFQxNTAwNDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02YmE1NzVlODQzMzBjMTljNThlOTZkYjc2ZjQ0MDUyYTdjMzFhNzg3NzdhMTg2OTJhYTU4YTkwZDExZTU2MDY4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.g6GrnuveYAOVCDbC6Q9g_sKU2vjd5ETZvu_sJpMv5cQ" alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
+                    <img src="<img width="602" height="327" alt="467574981-e55925ae-0ebe-4970-857b-64e156fcdf53" src="https://github.com/user-attachments/assets/91ccd5b6-d999-4c20-ae59-0e0ffce1ccb2" />" alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
                 </div>
                 <div>
                     <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">About Our App</h2>
