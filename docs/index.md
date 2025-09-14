@@ -74,7 +74,7 @@
             <p class="text-lg sm:text-xl lg:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto">
                 Discover a new way to effectively block ADs over your entire Windows machine, using a simplified & elegant interface.
             </p>
-            <a href="#" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105">
+            <a href="https://www.github.com/ObjectiveVirtual/ZBlock/releases" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105">
                 Download Now
             </a>
         </div>
@@ -106,7 +106,7 @@
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-2">Ease of tweaks</h3>
-                    <p class="text-gray-400">Use ZBlock to block specific websites/AD Domains and more by simply customizing it's blacklists</p>
+                    <p class="text-gray-400">Use ZBlock to block specific websites/AD Domains and more by simply customizing it's blacklist</p>
                 </div>
 
                 <!-- Feature 3 -->
@@ -117,7 +117,6 @@
                     <h3 class="text-xl font-bold text-white mb-2">Privacy respectful</h3>
                     <p class="text-gray-400">We respect your privacy. This is why our software runs locally on your computer without collecting anything about you.</p>
                 </div>
-
             </div>
         </div>
     </section>
@@ -150,7 +149,7 @@
                 <p class="text-gray-400 text-lg mb-8">
                     Get the source code today to help us shape the future of ZBlock.
                 </p>
-                <a href="#" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-10 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105">
+                <a href="https://www.github.com/ObjectiveVirtual/ZBlock" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-10 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105">
                     Join the Community
                 </a>
             </div>
