@@ -129,8 +129,8 @@
                 <div>
                     <img width="602" height="327" alt="App Screenshot" src="https://github.com/user-attachments/assets/1bc08612-1945-4ebc-a34f-b355260b4033" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
                 </div>
-                <div>
-                    <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">About Our App</h2>
+            <div>
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">About Our App</h2>
                     <p class="text-gray-400 text-lg mb-6">
                         We believe that you deserve an AD-free experience on your Windows device, this is why ZBlock helps you block of this clutter in one click. Designed to be easy to use and tweak, ZBlock remains a free hosts manager software to help you manage websites and ADs.
                     </p>
