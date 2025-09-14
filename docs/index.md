@@ -42,7 +42,7 @@
     <!-- Header & Navigation -->
     <header class="fixed top-0 left-0 w-full z-50 bg-gray-900 bg-opacity-70 backdrop-blur-md">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-white">YourApp</a>
+            <a href="#" class="text-2xl font-bold text-white">ZBlock</a>
             <nav class="hidden md:flex space-x-8">
                 <a href="#features" class="text-white hover:text-indigo-400 transition-colors duration-300">Features</a>
                 <a href="#about" class="text-white hover:text-indigo-400 transition-colors duration-300">About</a>
@@ -69,10 +69,10 @@
     <section class="bg-pattern text-center py-20 md:py-32 lg:py-48 flex items-center justify-center min-h-screen">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4">
-                The App That Makes Your Life Easier
+                The App That cleans your computer from ADs
             </h1>
             <p class="text-lg sm:text-xl lg:text-2xl text-gray-400 mb-8 max-w-2xl mx-auto">
-                Discover a new way to manage your tasks, connect with people, and achieve your goals. Simple, powerful, and elegant.
+                Discover a new way to effectively block ADs over your entire Windows machine, using a simplified & elegant interface.
             </p>
             <a href="#" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105">
                 Download Now
@@ -84,9 +84,9 @@
     <section id="features" class="py-20 bg-gray-900">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Powerful Features</h2>
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">A Powerful Solution</h2>
                 <p class="text-gray-400 text-lg max-w-3xl mx-auto">
-                    Our app is built with everything you need to succeed. Simple yet powerful tools right at your fingertips.
+                    Our app is built to make your computer AD-free, by respecting these three rules:
                 </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -97,7 +97,7 @@
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-2">Blazing Fast Performance</h3>
-                    <p class="text-gray-400">Experience a fluid and responsive interface with our optimized code and modern architecture.</p>
+                    <p class="text-gray-400">Experience a fluid, minimalist and responsive interface with our optimized code and modern architecture.</p>
                 </div>
 
                 <!-- Feature 2 -->
@@ -105,8 +105,8 @@
                     <div class="flex items-center justify-center w-16 h-16 bg-indigo-600 rounded-full mb-6">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-2">Seamless Integration</h3>
-                    <p class="text-gray-400">Connect with your favorite tools and services effortlessly. Our app plays well with others.</p>
+                    <h3 class="text-xl font-bold text-white mb-2">Ease of tweaks</h3>
+                    <p class="text-gray-400">Use ZBlock to block specific websites/AD Domains and more by simply customizing it's blacklists</p>
                 </div>
 
                 <!-- Feature 3 -->
@@ -114,8 +114,8 @@
                     <div class="flex items-center justify-center w-16 h-16 bg-indigo-600 rounded-full mb-6">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.081 12.081 0 003 12c0 2.83 1.157 5.462 3.041 7.424a13.044 13.044 0 005.973 2.576 13.044 13.044 0 005.973-2.576c1.884-1.962 3.041-4.594 3.041-7.424 0-4.664-3.535-8.484-8-9.056z"></path></svg>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-2">Unbreakable Security</h3>
-                    <p class="text-gray-400">Your data is our top priority. We use industry-leading encryption to keep your information safe.</p>
+                    <h3 class="text-xl font-bold text-white mb-2">Privacy respectful</h3>
+                    <p class="text-gray-400">We respect your privacy. This is why our software runs locally on your computer without collecting anything about you.</p>
                 </div>
 
             </div>
@@ -127,15 +127,15 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img src="https://placehold.co/600x400/1f2937/d1d5db?text=App+Screenshot" alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
+                    <img src="[https://placehold.co/600x400/1f2937/d1d5db?text=App+Screenshot](https://private-user-images.githubusercontent.com/166249695/467574981-e55925ae-0ebe-4970-857b-64e156fcdf53.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTc4NjIzNDYsIm5iZiI6MTc1Nzg2MjA0NiwicGF0aCI6Ii8xNjYyNDk2OTUvNDY3NTc0OTgxLWU1NTkyNWFlLTBlYmUtNDk3MC04NTdiLTY0ZTE1NmZjZGY1My5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkxNFQxNTAwNDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02YmE1NzVlODQzMzBjMTljNThlOTZkYjc2ZjQ0MDUyYTdjMzFhNzg3NzdhMTg2OTJhYTU4YTkwZDExZTU2MDY4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.g6GrnuveYAOVCDbC6Q9g_sKU2vjd5ETZvu_sJpMv5cQ)" alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
                 </div>
                 <div>
                     <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">About Our App</h2>
                     <p class="text-gray-400 text-lg mb-6">
-                        Born from a need for simplicity and efficiency, our app was built to solve a problem we all face: information overload. We believe that technology should serve you, not the other way around. Our dedicated team of developers and designers has poured their passion into creating an experience that is both functional and beautiful.
+                        We believe that you deserve an AD-free experience on your Windows device, this is why ZBlock helps you block of this clutter in one click. Designed to be easy to use and tweak, ZBlock remains a free hosts manager software to help you manage websites and ADs.
                     </p>
                     <p class="text-gray-400 text-lg">
-                        We are committed to continuous improvement, with regular updates and new features based on your feedback. Join our community and help us shape the future of productivity!
+                        We are committed to continuous improvement in our free time, our software is open source & licensed using the MIT license. Contributions, feedbacks and reviews are warmly welcomed on our github repository !
                     </p>
                 </div>
             </div>
@@ -143,12 +143,12 @@
     </section>
 
     <!-- Call to Action Section -->
-    <section id="contact" class="py-20 bg-gray-900">
+    <section id="contribute" class="py-20 bg-gray-900">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div class="bg-gray-800 p-10 rounded-xl max-w-3xl mx-auto shadow-2xl">
-                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to Get Started?</h2>
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Want to contribute?</h2>
                 <p class="text-gray-400 text-lg mb-8">
-                    Download the app today and start your journey towards a more organized and productive life.
+                    Get the source code today to help us shape the future of ZBlock.
                 </p>
                 <a href="#" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-10 rounded-full shadow-xl transition-all duration-300 transform hover:scale-105">
                     Join the Community
@@ -160,7 +160,7 @@
     <!-- Footer -->
     <footer class="bg-gray-900 py-8 border-t border-gray-700">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400">
-            <p>&copy; <span id="current-year"></span> Your App Name. All rights reserved.</p>
+            <p>&copy; <span id="current-year"></span> Anir ELhaddaj (Objective:Virtual), the presented software is licensed under the MIT license.</p>
         </div>
     </footer>
 
