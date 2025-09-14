@@ -127,8 +127,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img src=<img width="602" height="327" alt="467574981-e55925ae-0ebe-4970-857b-64e156fcdf53" src="https://github.com/user-attachments/assets/1bc08612-1945-4ebc-a34f-b355260b4033" />
- alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
+                    <img width="602" height="327" src="https://github.com/user-attachments/assets/1bc08612-1945-4ebc-a34f-b355260b4033" alt="App Screenshot" class="rounded-xl shadow-2xl transition-transform duration-300 transform hover:scale-105">
                 </div>
                 <div>
                     <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">About Our App</h2>
