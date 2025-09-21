@@ -1,5 +1,4 @@
 <!-- ZBlock Modern Landing Page -->
-
 <div align="center">
   <img width="603 height="603" src="https://github.com/user-attachments/assets/335ffe91-69ce-4390-a50a-fb8ec7f08488" alt="ZBlock Logo"/>
   
