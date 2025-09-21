@@ -1,9 +1,6 @@
 <!-- ZBlock Modern Landing Page -->
-<div align="center">
-  
-  # ZBlock
-  **Simple; Fast & Modern Desktop AD Blocker.**
-</div>
+# ZBlock
+**A simple, fast & modern Hosts file manager**
 
 ---
 
