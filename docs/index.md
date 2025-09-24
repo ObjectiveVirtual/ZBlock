@@ -1,13 +1,14 @@
 <!-- ZBlock Modern Landing Page -->
 <div align="center">
-  **A simple, open source, fast & modern Hosts file manager**
+  A simple, open source, fast & modern Hosts file manager.
 </div>
 
 ---
-
 ## 🚀 Why ZBlock?
-ZBlock keeps your desktop experience clean—no noisy ads, no distractions. Built with Python, ZBlock is free and open-source.
-You can also configure it to block websites of your choice, it is privacy focused and fully under your control !
+<div align="center">
+ ZBlock keeps your desktop experience clean—no noisy ads, no distractions. Built with Python, ZBlock is free and open-source.
+ You can also configure it to block websites of your choice, it is privacy focused and fully under your control !
+</div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/python-3.x-blue" alt="Python Version" />
