@@ -1,6 +1,7 @@
 <!-- ZBlock Modern Landing Page -->
-# ZBlock
-**A simple, fast & modern Hosts file manager**
+<div align="center">
+  **A simple, open source, fast & modern Hosts file manager**
+</div>
 
 ---
 
