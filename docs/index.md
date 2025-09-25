@@ -1,3 +1,4 @@
+![Zblock Logo Idea](https://github.com/user-attachments/assets/3002e563-610b-4d40-8f5d-146eb8b7c080)
 <link rel="icon" type="image/png" href="logo.png">
 <!-- ZBlock Modern Landing Page -->
 <div align="center">
