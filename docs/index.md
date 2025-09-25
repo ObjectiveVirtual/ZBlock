@@ -59,16 +59,8 @@
 
 ---
 
-## 🤝 Contribute
-
-Whether you're fixing bugs or adding features, your help improves ZBlock for everyone!
-- Fork this repo
-- Create a feature branch
-- Open a pull request
-
----
-
 ## 📥 Resources
+Wanna learn more about the project ? Here are some useful documents :
 - [README](../README.md)
 - [Wiki](https://github.com/ObjectiveVirtual/ZBlock/wiki)
 - [License](../LICENSE)
