@@ -1,3 +1,4 @@
+<link rel="icon" type="image/png" href="logo.png">
 <!-- ZBlock Modern Landing Page -->
 <div align="center">
   A simple, open source, fast & modern Hosts file manager.
@@ -52,7 +53,7 @@
 </details>
 <details>
   <summary>How do I contribute?</summary>
-  Pull requests and feedback are welcome! Grab the source code here: https://github.com/ObjectiveVirtual/ZBlock/blob/main/ZBlock_windows.py, improve it, then start a pull request. You can also just keep experimenting it and give your feedback about it and how can we improve it !
+  Pull requests and feedback are welcome! Grab the source code here: https://github.com/ObjectiveVirtual/ZBlock/blob/main/ZBlock_windows.py, improve it, then start a pull request. You can also jus...
 </details>
 
 ---
