@@ -1,6 +1,23 @@
 ![Zblock Logo Idea](https://github.com/user-attachments/assets/3002e563-610b-4d40-8f5d-146eb8b7c080)
 <link rel="icon" type="image/png" href="https://github.com/ObjectiveVirtual/ZBlock/main/docs/logo.png">
 <!-- ZBlock Modern Landing Page -->
+<style>
+:root {
+  --bg: #fff;
+  --fg: #111;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111;
+    --fg: #eee;
+  }
+}
+body, html {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+}
+h1, h2, h3, h4, h5, h6, a { color: var(--fg) !important; }
+</style>
 <div align="center">
   A simple, open source, fast & modern Hosts file manager.
 </div>
@@ -54,7 +71,7 @@
 </details>
 <details>
   <summary>How do I contribute?</summary>
-  Pull requests and feedback are welcome! Grab the source code here: https://github.com/ObjectiveVirtual/ZBlock/blob/main/ZBlock_windows.py, improve it, then start a pull request. You can also jus...
+  Pull requests and feedback are welcome! Grab the source code here: https://github.com/ObjectiveVirtual/ZBlock/blob/main/ZBlock_windows.py, improve it, then start a pull request. You can also just open an issue with your suggestions.
 </details>
 
 ---
