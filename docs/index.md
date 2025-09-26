@@ -40,7 +40,10 @@ h1, h2, h3, h4, h5, h6, a { color: var(--fg) !important; }
 ---
 
 ## ✨ Features
-<img width="353" height="146" alt="Screenshot 2025-09-06 203723" src="https://github.com/user-attachments/assets/1306c8b2-dfe0-4a8f-b22a-d5d16dac9b86" />
+<div align="center">
+  <img width="353" height="146" alt="Screenshot 2025-09-06 203723" src="https://github.com/user-attachments/assets/1306c8b2-dfe0-4a8f-b22a-d5d16dac9b86" />
+</div>
+
 - 🚫 Blocks ads on desktop applications !
 - ⚡ Lightweight & fast !
 - 🔒 Safe & open source !
