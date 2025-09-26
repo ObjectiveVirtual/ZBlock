@@ -1,4 +1,3 @@
-![Zblock Logo Idea](https://github.com/user-attachments/assets/3002e563-610b-4d40-8f5d-146eb8b7c080)
 <link rel="icon" type="image/png" href="https://github.com/ObjectiveVirtual/ZBlock/main/docs/logo.png">
 <!-- ZBlock Modern Landing Page -->
 <style>
@@ -24,6 +23,8 @@ h1, h2, h3, h4, h5, h6, a { color: var(--fg) !important; }
 
 ---
 ## 🚀 Why ZBlock?
+<img width="960" height="540" alt="Screenshot 2025-09-06 203738" src="https://github.com/user-attachments/assets/167c426d-ed2c-4e15-9c9d-f6e8485f7a27" />
+
 <div align="center">
  ZBlock keeps your desktop experience clean—no noisy ads, no distractions. Built with Python, ZBlock is free and open-source.
  You can also configure it to block websites of your choice, it is privacy focused and fully under your control !
@@ -39,7 +40,7 @@ h1, h2, h3, h4, h5, h6, a { color: var(--fg) !important; }
 ---
 
 ## ✨ Features
-
+<img width="353" height="146" alt="Screenshot 2025-09-06 203723" src="https://github.com/user-attachments/assets/1306c8b2-dfe0-4a8f-b22a-d5d16dac9b86" />
 - 🚫 Blocks ads on desktop applications !
 - ⚡ Lightweight & fast !
 - 🔒 Safe & open source !
