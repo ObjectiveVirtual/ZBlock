@@ -14,7 +14,7 @@ from tkinter import messagebox
 import shutil
 
 # That once called "Ugly UI" is now called "Shitty UI" !
-# 💀
+# 💀 What?!
 def user_interface():
     # Disclaimer message.
     messagebox.showinfo("Welcome to ZBlock", "We believe that you have read our Wiki and understood how this software works. If not, then please do so. Continuing means that you acknowledge the fact that I AM NOT RESPONSIBLE FOR DAMAGE CAUSED TO THIS COMPUTER.")
