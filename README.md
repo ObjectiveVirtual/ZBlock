@@ -9,7 +9,7 @@
 
 ZBlock modifies your system hosts file by adding a lot of advertisement domains that the system must block by redirecting them to a computer that doesn't exist once you click on block ADs on the UI. Unfortunately, this will also block legitimate websites that don't have the purpose to show any AD.
 
-# ⚠ Disclaimer
+> [!WARNING]
 >  I am not responsible of damage caused to your computer. If do you want a safe, efficace & reliable experience, pls do not choose versions flagged as unstable. They're too heavy, they contain large amount of informations that can break the internet access feature on your PC, yet unreliable. These kind of versions are meant for educationnal/experimental purposes, not for actual use. Use them at your own risk.
 
 ### 🔰 Types of versions + comparaison
